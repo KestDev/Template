@@ -31,9 +31,9 @@ line-height: 24px; /* 150% */
 }
 
 .container {
-width: 1110px
+width: 1110px;
 display: flex;     /* почему подчеркивает */
-flex-direction: column;;
+flex-direction: column;
 }
 
 .header {
@@ -293,7 +293,7 @@ align-items: flex-start;
 gap: 10px;
 
 }
-.content:hover{
+.content:hover {
     background: #F6F3FC; 
     border-left: solid 8px var(--main-accent-color);
     padding-left: 24px;
